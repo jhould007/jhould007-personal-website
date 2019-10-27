@@ -1,12 +1,17 @@
 {
   "name": "websitenodeapp",
   "version": "1.0.0",
-  "description": "",
+  "description": "My personal website, jhould007.github.io, updated to use Node.js and Express so I could get some experience with backend development.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+
+"keywords": [
+  "heroku"
+],
+
+  "author": "josh-houlding",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
