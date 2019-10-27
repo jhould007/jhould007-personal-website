@@ -4,9 +4,9 @@ var path = require('path');
 app.use(express.static(__dirname)); 
 
 app.get('/', function(req, res) {
-    res.sendFile(__dirname + "/index.html"); 
+    res.sendFile(path.join(__dirname , "/index.html")); 
 });
 
-app.listen(80, function() {
-    console.log("Listening on port 80"); 
+app.listen(process.env.PORT || 4000, function() {
+    console.log("Your node.js server is running"); 
 }); 
